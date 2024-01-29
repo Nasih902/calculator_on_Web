@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+
+    <div id="main-body">
+        <div id="inner-body">
+            <div class="display">
+              <input type="text" id="screen">
+            </div>
+           <div class="function-body">
+            <div class="tools-row"></div>
+            <div class="row-one">
+                <button class="onerow-btn" onclick="clearDisplay()">C</button>
+                <div class="onerow-btn">
+                    <h2>( )</h2>
+                </div>
+                <div class="onerow-btn">
+                    <h2>%</h2>
+                </div>
+                <!-- side-bar -->
+                <div class="rigth-side-bar"> 
+                    <h2>/</h2>
+                </div>
+            </div>
+            <div class="row-one">
+                <button class="inside-the-bar" onclick="tapClik(7)">7</button>
+                <button class="inside-the-bar" onclick="tapClik(8)">8</button>
+                <button class="inside-the-bar" onclick="tapClik(9)">9</button>
+                <button class="inside-the-bar" onclick="tapClik('x')">x</button>
+            </div>
+            <div class="row-one">
+                <button class="inside-the-bar" onclick="tapClik(4)">4</button>
+                <button class="inside-the-bar" onclick="tapClik(5)">5</button>
+                <button class="inside-the-bar" onclick="tapClik(6)">6</button>
+                <button class="inside-the-bar" onclick="tapClik('-')">-</button>
+            </div>
+            <div class="row-one">
+                <button class="inside-the-bar" onclick="tapClik(3)">3</button>
+                <button class="inside-the-bar" onclick="tapClik(2)">2</button>
+                <button class="inside-the-bar" onclick="tapClik(1)">1</button>
+                <button class="inside-the-bar" onclick="tapClik('+')">+</button>
+            </div>
+            <div class="row-one">
+                <div class="inside-the-bar" onclick="">
+                <h2>+/-</h2></div>
+                <div class="inside-the-bar">
+                    <h2>0</h2>
+                </div>
+                <div class="inside-the-bar">
+                    <h2>.</h2>
+                </div>
+                
+                <button class="inside-gradiant-bar" onclick="equaldisplay()">=</button>
+
+
+            </div>
+           </div>
+
+        </div>
+
+
+    </div>
+
+    
+</body>
+</html>
